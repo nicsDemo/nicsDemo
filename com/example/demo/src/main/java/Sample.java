@@ -3,6 +3,6 @@
  */
 public class Sample {
     public static int num() {
-        return 11;
+        return 10;
     }
 }
