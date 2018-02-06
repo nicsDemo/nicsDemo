@@ -55,7 +55,8 @@
                 <version>2.2</version>
                 <configuration>
                     <server>localhost</server>
-                    <url>http://localhost:8080/manager</url>
+                    <port>9999</port>
+                    <url>http://localhost:9999/manager</url>
                     <path>/${project.build.finalName}</path>
                 </configuration>
             </plugin>
