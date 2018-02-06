@@ -12,9 +12,10 @@ public class UserTest {
 
     @Before
     public void setUp() throws Exception {
-        String name = "yuho ito";
+        String fname = "yuho";
+        String lname = "ito";
         String email = "yuho.ito@example.vom";
-        this.user = new User(name, email);
+        this.user = new User(fname, lname, email);
     }
 
     @Test
@@ -25,12 +26,12 @@ public class UserTest {
     @Test
     public void testAgeCatUp() throws Exception {
         this.user.age = 20;
-        assertTrue(this.user.ageCat() == "成人");
+        assertTrue(this.user.ageCat().equals("成人"));
     }
 
     @Test
     public void testAgeCatDown() throws Exception {
         this.user.age = 19;
-        assertTrue(this.user.ageCat() == "未成年");
+        assertTrue(this.user.ageCat().equals("未成年"));
     }
 }
