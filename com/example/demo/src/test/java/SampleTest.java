@@ -7,6 +7,7 @@ import org.junit.Test;
 public class SampleTest {
     @Test
     public void testNum() {
-        assertEquals("is not 10!!",10, Sample.num());
+        int answer = 10;
+        assertEquals("is not 10!!", answer, Sample.num());
     }
 }
