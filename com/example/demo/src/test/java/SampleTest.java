@@ -10,6 +10,6 @@ public class SampleTest {
         assertEquals("is not 10!!",10, Sample.num());
     }
     public void testString(){
-        assertEquals("is correct Text!!", "this is test text", Sample.num());
+        assertEquals("is correct Text!!", "this is test text", Sample.text());
     }
 }
