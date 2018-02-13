@@ -1,7 +1,7 @@
 /**
  * Created by yuho on 2018/02/01.
  */
-class User {
+public class User {
     private String firstName=null;
     private String lastName=null;
     private String email=null;
