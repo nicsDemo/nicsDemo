@@ -33,7 +33,7 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>test3</finalName>
+        <finalName>test</finalName>
         <!-- 以下を追加 -->
         <plugins>
             <plugin>
