@@ -14,6 +14,8 @@ public class User {
         this.email = email;
     }
 
+    // TODO: 年齢チェック
+    // TODO: メールアドレスのバリデーション
     public boolean Validate(){
         if(this.name()==null || this.email==null){
             return false;
