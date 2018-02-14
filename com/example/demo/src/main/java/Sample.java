@@ -5,4 +5,8 @@ public class Sample {
     public static int num() {
         return 10;
     }
+
+    public static String text() {
+        return "this is test text";
+    }
 }

@@ -9,4 +9,8 @@ public class SampleTest {
     public void testNum() {
         assertEquals("is not 10!!",10, Sample.num());
     }
+    @Test
+    public void testString(){
+        assertEquals("is correct Text!!", "this is test text", Sample.text());
+    }
 }
