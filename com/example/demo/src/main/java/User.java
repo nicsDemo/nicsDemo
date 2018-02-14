@@ -1,6 +1,5 @@
 /**
  * Created by yuho on 2018/02/01.
- * TODO: プロパティ追加
  */
 public class User {
     private String firstName=null;
