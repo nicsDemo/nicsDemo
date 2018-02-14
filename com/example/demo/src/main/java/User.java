@@ -6,7 +6,8 @@ public class User {
     private String firstName=null;
     private String lastName=null;
     private String email=null;
-    public Integer age=null;
+    public Integer age;
+
 
     public User(String fname, String lname, String email){
         this.firstName= fname;
