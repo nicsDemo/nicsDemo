@@ -1,5 +1,6 @@
 /**
  * Created by yuho on 2018/02/01.
+ * TODO: プロパティ追加
  */
 public class User {
     private String firstName=null;
@@ -13,6 +14,8 @@ public class User {
         this.email = email;
     }
 
+    // TODO: 年齢チェック
+    // TODO: メールアドレスのバリデーション
     public boolean Validate(){
         if(this.name()==null || this.email==null){
             return false;
